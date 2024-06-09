@@ -1,5 +1,5 @@
 import { useState ,useEffect } from 'react';
-import searchicon from './assets/search.png';
+import searchIcon from './assets/search.png';
 import windIcon from './assets/wind.png';
 import hum from './assets/hum.png'
 
@@ -95,7 +95,7 @@ export default function App() {
                 onChange={handleCity} onKeyDown={handlekey}
                 value={text} placeholder="Search City"
                 className="text-black focus:outline-none h-8 w-72 p-2 " />
-              <img src={searchicon} onClick={() => search()} alt="search icon" className='bg-white h-[32px]' />
+              <img src={searchIcon} onClick={() => search()} alt="search icon" className='bg-white h-[32px]' />
             </div>
           </div>
           <div >
